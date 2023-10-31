@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="form_div">
+            <form id="form" autocomplete="off">
+                <label for="p_code">Product Code :</label><br><br>
+                <input type="text" id="p_code" placeholder="Unique Code"><br><br>
+
+                <label for="p_name">Product Name :</label><br><br>
+                <input type="text" id="p_name" placeholder="Product"><br><br>
+
+                <label for="p_quan">Product Quantity :</label><br><br>
+                <input type="number" id="p_quan" placeholder="Quantity"><br><br>
+
+                <label for="p_price">Product Price :</label><br><br>
+                <input type="text" id="p_price" placeholder="Price in Rupees"><br><br>
+
+                <input id='reset' type="reset">
+                <button id='submit' type="submit">Submit</button>
+
+            </form>
+        </div>
+
+        <div class="output_div">
+            <table id="table">
+                <tr>
+                    <th>Product Code</th>
+                    <th>Product Name</th>
+                    <th>Product Quantity</th>
+                    <th>Product Price</th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
